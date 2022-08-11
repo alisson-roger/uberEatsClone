@@ -7,7 +7,6 @@ const styles = StyleSheet.create(
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: '.5rem',
     }
     ,
     restaurantContainer: {
@@ -15,7 +14,7 @@ const styles = StyleSheet.create(
       marginVertical: '1rem'
     },
     image: {
-      width: '100%',
+      width: '90vw',
       aspectRatio: 5 / 3,
       marginBottom: '.3rem'
     },
@@ -27,6 +26,20 @@ const styles = StyleSheet.create(
     subtitle: {
       color: 'gray'
     },
+    row: {
+      flexDirection: 'row',
+      alignItems: 'center'
+    },
+    rating: {
+      marginLeft: 'auto',
+      backgroundColor: 'lightgray',
+      width: '1.6rem',
+      height: '1.6rem',
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: '1rem'
+    }
+
   })
 
 export default styles
